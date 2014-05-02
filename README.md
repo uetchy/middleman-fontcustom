@@ -29,6 +29,10 @@ activate :fontcustom do |fc|
 end
 ```
 
+Put your icon files(just like svg) into `source_dir`, then run `middleman server`.
+
+If `source_dir` has been changed, webfont files and stylesheets will be generated automatically.
+
 ## License
 
 Copyright (C) 2014 Ryo Ameya. see LICENSE.md for further details.
