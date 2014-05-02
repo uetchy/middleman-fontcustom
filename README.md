@@ -17,7 +17,7 @@ activate :fontcustom
 
 Following lines are default options of this extension.
 
-```
+```ruby
 activate :fontcustom do |fc|
   fc.font_name = 'fontcustom'
   fc.source_dir = 'assets/icons'
@@ -27,6 +27,7 @@ activate :fontcustom do |fc|
   # fc.templates = 'scss-rails scss css'
   fc.no_hash = false
 end
+```
 
 ## License
 
