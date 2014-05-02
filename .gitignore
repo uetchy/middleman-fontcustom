@@ -1,0 +1,9 @@
+*.gem
+.bundle
+/vendor/bundle
+Gemfile.lock
+pkg/*
+Thumbs.db
+.DS_Store
+.rbenv-version
+.ruby-version
