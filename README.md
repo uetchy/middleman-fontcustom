@@ -20,7 +20,7 @@ Following lines are default options of this extension.
 ```ruby
 activate :fontcustom do |fc|
   fc.font_name = 'fontcustom'
-  fc.source_dir = 'assets/icons'
+  fc.source_dir = 'assets/fontcustom'
   fc.fonts_dir = 'source/fonts'
   fc.css_dir = 'source/stylesheets'
   fc.templates = 'scss'
