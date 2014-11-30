@@ -35,4 +35,4 @@ If `source_dir` has been changed, webfont files and stylesheets will be generate
 
 ## License
 
-Copyright (C) 2014 Ryo Ameya. see LICENSE.md for further details.
+Copyright (C) 2014 Yasuaki Uechi. see LICENSE.md for further details.

@@ -3,7 +3,7 @@
 /vendor/bundle
 Gemfile.lock
 pkg/*
+
+# OS Specific
 Thumbs.db
 .DS_Store
-.rbenv-version
-.ruby-version

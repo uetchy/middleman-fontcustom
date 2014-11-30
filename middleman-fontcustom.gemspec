@@ -6,9 +6,9 @@ Gem::Specification.new do |s|
   s.name        = "middleman-fontcustom"
   s.version     = Middleman::Fontcustom::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Ryo Ameya"]
-  s.email       = ["oame@oameya.com"]
-  s.homepage    = "https://github.com/oame/middleman-fontcustom"
+  s.authors     = ["Yasuaki Uechi"]
+  s.email       = ["uetchy@randompaper.co"]
+  s.homepage    = "https://github.com/uetchy/middleman-fontcustom"
   s.summary     = %q{Generate web-fonts in your Middleman project}
   s.description = %q{Generate web-fonts in your Middleman project}
   s.license     = "MIT"
@@ -19,6 +19,8 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_runtime_dependency("middleman-core", ["~> 3.2"])
-  s.add_runtime_dependency("fontcustom", ["~> 1.3.3"])
+  s.add_runtime_dependency("middleman-core", ["~> 3.3"])
+  s.add_runtime_dependency("fontcustom", ["~> 1.3.7"])
+
+  s.add_development_dependency("rake")
 end
