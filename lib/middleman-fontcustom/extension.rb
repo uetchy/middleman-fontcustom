@@ -8,6 +8,7 @@ module Middleman
     option :css_dir, 'source/stylesheets', 'Folder to output css'
     option :templates, 'scss', 'Output templates'
     option :no_hash, true, 'Create hash for no cache policy'
+    option :preprocessor_path, nil, 'Relative path from your compiled CSS to your output directory'
 
     def initialize(app, options_hash={}, &block)
       super
@@ -25,7 +26,8 @@ module Middleman
             :css => config[:css_dir]
           },
           :templates => config[:templates].split(/\s/),
-          :no_hash => config[:no_hash]
+          :no_hash => config[:no_hash],
+          :preprocessor_path => config[:preprocessor_path]
         }).compile
       }
 

@@ -26,6 +26,7 @@ activate :fontcustom do |fc|
   fc.templates = 'scss'
   # fc.templates = 'scss-rails scss css'
   fc.no_hash = false
+  fc.preprocessor_path = nil
 end
 ```
 
