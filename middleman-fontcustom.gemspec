@@ -17,10 +17,10 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.required_ruby_version = '>= 1.9.3'
+  s.required_ruby_version = ">= 1.9.3"
 
-  s.add_runtime_dependency("middleman-core", ["~> 3.3"])
-  s.add_runtime_dependency("fontcustom", ["~> 1.3.7"])
+  s.add_runtime_dependency "middleman-core", "~> 3.3.7"
+  s.add_runtime_dependency "fontcustom", "~> 1.3.7"
 
-  s.add_development_dependency("rake")
+  s.add_development_dependency "rake"
 end
