@@ -19,14 +19,11 @@ Following lines are default options of this extension.
 
 ```ruby
 activate :fontcustom do |fc|
-  fc.font_name = 'fontcustom'
-  fc.source_dir = 'assets/fontcustom'
-  fc.fonts_dir = 'source/fonts'
-  fc.css_dir = 'source/stylesheets'
+  fc.font_name = 'icons'
+  fc.source_dir = 'source/icons'
+  fc.fonts_dir = 'fonts'
+  fc.css_dir = 'stylesheets/components'
   fc.templates = 'scss'
-  # fc.templates = 'scss-rails scss css'
-  fc.no_hash = false
-  fc.preprocessor_path = nil
 end
 ```
 
