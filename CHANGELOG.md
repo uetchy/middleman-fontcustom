@@ -1,6 +1,11 @@
+# 0.2.1
+
+- Add editorconfig support(@izaakschroeder)
+- Update middleman version(@acjay)
+
 # 0.2.0
 
-- add "preprocessor_path" option for fontcustom by @dleavitt
+- add "preprocessor_path" option for fontcustom(@dleavitt)
 
 # 0.1.1
 
