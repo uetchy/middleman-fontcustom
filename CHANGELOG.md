@@ -1,3 +1,7 @@
+# 0.3.0
+
+- New "autowidth" option for fontcustom(@RickMeijer)
+
 # 0.2.1
 
 - Add editorconfig support(@izaakschroeder)
