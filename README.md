@@ -27,6 +27,7 @@ activate :fontcustom do |fc|
   # fc.templates = 'scss-rails scss css'
   fc.no_hash = false
   fc.preprocessor_path = nil
+  fc.autowidth = true
 end
 ```
 
@@ -36,4 +37,4 @@ If `source_dir` has been changed, webfont files and stylesheets will be generate
 
 ## License
 
-Copyright (C) 2014 Yasuaki Uechi. see LICENSE.md for further details.
+see LICENSE.md for further details.
