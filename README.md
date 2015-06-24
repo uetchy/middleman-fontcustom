@@ -1,7 +1,7 @@
 # middleman-fontcustom
 
 [![Gem Version](https://badge.fury.io/rb/middleman-fontcustom.svg)](http://badge.fury.io/rb/middleman-fontcustom)
-[![Dependency Status](https://gemnasium.com/oame/middleman-fontcustom.svg)](https://gemnasium.com/oame/middleman-fontcustom)
+[![Dependency Status](https://gemnasium.com/uetchy/middleman-fontcustom.svg)](https://gemnasium.com/uetchy/middleman-fontcustom)
 
 middleman-fontcustom is an extension that provides webfont generator for the Middleman.
 
